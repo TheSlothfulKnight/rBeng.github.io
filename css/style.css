@@ -44,12 +44,12 @@ main{
   background: #7887AB;
   box-shadow: 0 0 10px 2px;
 }
-.choiceButts-grid{
+.choiceButtons-grid{
   display: grid;
   grid-template-columns: repeat(2,auto);
   padding: 25px;
 }
-.choiceButts{
+.choiceButton{
  padding: 10px 50px;
  margin: 2px;
 }
@@ -64,7 +64,7 @@ main{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-.choiceButts:hover{
+.choiceButton:hover{
   border: 2px solid lightblue;
 }
 
