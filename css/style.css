@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: #061539;
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background:10px #2E4172;
+  padding: 2px;
+}
+li{
+  display: inline;
+  border-right: 3px solid #8aa2a7;
+  padding: 19px;
+  color: white;
+  font-size: 18px;
+}
+h1{
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+main{
+  display: absolute;
+  justify-content: center;
+  border: 5px solid white;
+  width: 800px;
+  height: 550px;
+  margin: 0px 0px 0px 25%;
+  background: #7887AB;
+  box-shadow: 0 0 10px 2px;
+}
+.choiceButts-grid{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  padding: 25px;
+}
+.choiceButts{
+ padding: 10px 50px;
+ margin: 2px;
+}
+.textInfo{
+  display: flex;
+  justify-content: left;
+  color:white;
+  margin: 25px;
+  font-size: 25px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.choiceButts:hover{
+  border: 2px solid lightblue;
+}
+
+a {
+  color: white;
+}
