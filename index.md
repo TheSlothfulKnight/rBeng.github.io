@@ -33,12 +33,12 @@
 		<h1> something something rpg </h1>
 		<main class="gameHolder">
 			<span class = "textInfo" id = "textBox"> Text</span>
-		<ul class = ".choiceButts-grid" id = "choices">
-			<button class="choiceButts"> Choice1 </button>
-			<button class="choiceButts"> Choice2 </button>
-			<button class="choiceButts"> Choice3 </button>
-			<button class="choiceButts"> Choice4 </button>
-			<button class="choiceButts"> Choice5 </button>
+		<ul class = ".choiceButtons-grid" id = "choices">
+			<button class="choiceButton"> Choice1 </button>
+			<button class="choiceButton"> Choice2 </button>
+			<button class="choiceButton"> Choice3 </button>
+			<button class="choiceButton"> Choice4 </button>
+			<button class="choiceButton"> Choice5 </button>
 		</ul>
 		</main>
 		
