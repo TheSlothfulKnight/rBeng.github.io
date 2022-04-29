@@ -45,24 +45,24 @@ function selectDecision(option){
 const textNodes = [
     {
         id: 1,
-        text:'What is your name?"',
+        text:'',
         options:[
             {
-                text: 'daniel',
+                text: '',
                 nextText: 2
             },
             {
-                text: 'rowan',
+                text: '',
                 nextText: 3
             },
         ]
     },
         {
             id: 2,
-            text: '"imagine being daniel"',
+            text: '',
             options:[
                 {
-                    text: 'aw, do i suck?',
+                    text: '',
                     nextText: 3
 
                 },
@@ -70,10 +70,10 @@ const textNodes = [
         },
         {
             id: 3,
-            text: '"you suck massive dongs"',
+            text: '',
             options:[
                 {
-                    text: 'damn',
+                    text: '',
                     nextText: 3
 
                 },
